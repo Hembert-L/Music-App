@@ -1,0 +1,36 @@
+# Gradle / Kotlin: generated on each machine.
+.gradle/
+.kotlin/
+**/build/
+.externalNativeBuild/
+.cxx/
+
+# Local SDK, IDE and OS settings.
+local.properties
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build artifacts and temporary diagnostic output.
+*.apk
+*.aab
+*.ap_
+*.zip
+*.hprof
+*.log
+*.tmp
+*.bak
+/screenshots/
+/reports/
+
+# Private signing files and environment configuration.
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+.env
+.env.*
+!.env.example
